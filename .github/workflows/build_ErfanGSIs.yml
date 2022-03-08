@@ -5,8 +5,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: http://roms.minovo.ml/Firmware/2021/21.3.10/sasd65S45SDE98nf/minovo_lavender_21.3.10_10.0_6254e3e691.zip
-  ROM_NAME: MIUId
+  ROM_URL: https://objects.githubusercontent.com/github-production-release-asset-2e65be/362393580/5754e475-d4cd-4e04-880e-e3d0f696b395?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20220308%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220308T072422Z&X-Amz-Expires=300&X-Amz-Signature=97c0de332c4212c945e0dbc133320feb57bc87be3075988484ad05ee40233ca8&X-Amz-SignedHeaders=host&actor_id=101169523&key_id=0&repo_id=362393580&response-content-disposition=attachment%3B%20filename%3DPixelExperience_arm64-ab-12.0-20220226-UNOFFICIAL.img.xz&response-content-type=application%2Foctet-stream
+  ROM_NAME: Generic
   TZ: Asia/Kolkata
   MIR: wet
   ZIP_NAME: MI-NOVO
