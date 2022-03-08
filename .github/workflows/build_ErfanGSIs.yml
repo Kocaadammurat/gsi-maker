@@ -5,7 +5,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://github.com/ponces/treble_build_pe/releases/download/v402.1/PixelExperience_arm64-ab-12.0-20220226-UNOFFICIAL.img.xz
+  ROM_URL: 
+https://github.com/ponces/treble_build_pe/releases/download/v402.1/PixelExperience_arm64-ab-12.0-20220226-UNOFFICIAL.img.xz
   ROM_NAME: Generic
   TZ: Asia/Kolkata
   MIR: wet
@@ -26,7 +27,7 @@ jobs:
 
        
        - name: Clone ErfanGSI Source Code
-         run: git clone --recurse-submodules https://github.com/Kocaadammurat/ErfanGSIs-VelanGSIs.git
+         run: git clone --recurse-submodules https://github.com/Treble-Experience/ErfanGSIs-VelanGSIs.git ErfanGSIs
        
        - name: Setting up ErfanGSI requirements
          run: |
